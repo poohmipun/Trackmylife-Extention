@@ -1,0 +1,107 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #0b0c10;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 300px;
+}
+
+header {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+h1 {
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.43);
+  border-radius: 40px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+#saveBtn {
+  background-color: rgba(255, 255, 255, 0.43);
+  border-radius: 40px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 40px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#resetBtn {
+  background-color: rgba(255, 255, 255, 0.43);
+  border-radius: 40px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.reset-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: auto;
+}
+
+#resetBtn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#startBtn:hover,
+#pauseBtn:hover,
+#saveBtn:hover,
+#resetBtn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#timer {
+  font-size: 72px;
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-bottom: 15px;
+}
